@@ -13,7 +13,7 @@ export default function Login() {
         setErrorMsg("");
 
         // Hardcoded credential check (replace with your own logic if needed)
-        if (username === "Admin" && password === "YK12345$$") {
+        if (username === "Admin" && password === "123456789") {
             // Generate a random token string (no real JWT)
             const randomToken = Math.random().toString(36).slice(2);
             localStorage.setItem("token", randomToken);
